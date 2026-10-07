@@ -90,7 +90,7 @@ function end(){
  if(score>best){best=score;try{localStorage.setItem('epik_best',best)}catch(e){}}
  showBest();showEnd();$('end').style.display='flex';
 }
-const API='https://script.google.com/macros/s/COLLE_TON_URL/exec';
+const API='https://script.google.com/macros/s/AKfycbwuDP9zaFVBl87iBDLFgvGphV4fpHRH4wCC4_hhTMy0-i3KQY-wu15_7cpC03ORQo4/exec';
 const live=()=>API.indexOf('COLLE')<0;
 const dev=/iPhone|iPad/.test(navigator.userAgent)?'iPhone':/Android/.test(navigator.userAgent)?'Android':'Autre';
 const BAD=['merde','fuck','shit','pute','salop','nique','encul','bite','zob'];
