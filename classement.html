@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Classement · Epik Leaders</title>
+<style>
+:root{--bg:#114964;--red:#c91633}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0}
+body{background:radial-gradient(circle at 50% 20%,#1a6384,var(--bg) 70%);color:#fff;font-family:system-ui,Arial,sans-serif;display:flex;flex-direction:column;align-items:center;padding:3vh 4vw;overflow:hidden}
+h1{margin:0;font-size:clamp(28px,6vh,64px);letter-spacing:.06em;text-align:center}
+h1 span{background:var(--red);padding:0 .25em;border-radius:8px}
+.sub{font-size:clamp(16px,2.6vh,28px);opacity:.85;margin:1vh 0 2vh;text-align:center}
+#main{display:flex;gap:4vw;width:100%;max-width:1300px;flex:1;min-height:0;align-items:stretch}
+#list{flex:1;display:flex;flex-direction:column;gap:1vh;min-height:0}
+#qr{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2vh;text-align:center;font-weight:800;font-size:clamp(16px,3vh,32px)}
+#qr .q{background:#fff;padding:2vh;border-radius:16px;line-height:0}
+#qr img{width:min(30vw,38vh);height:min(30vw,38vh);image-rendering:pixelated}
+@media (max-aspect-ratio:1/1){#main{flex-direction:column}#qr{flex-direction:row}#qr img{width:20vh;height:20vh}}
+.r{flex:1;display:flex;align-items:center;gap:3vw;padding:0 3vw;border-radius:16px;background:rgba(255,255,255,.1);font-weight:800;font-size:clamp(18px,4.2vh,44px);max-height:9vh}
+.r:nth-child(1){background:var(--red)}
+.r b{width:2.2em}.r span{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.empty{margin:auto;font-size:clamp(20px,4vh,40px);opacity:.8;text-align:center}
+</style></head><body>
+<h1>CLASSEMENT <span>EPIK</span></h1>
+<div class="sub">Scanne le QR code, attrape les valeurs et prends la 1ʳᵉ place !</div>
+<div id="main"><div id="list"><div class="empty">Chargement…</div></div>
+<div id="qr"><div class="q"><img alt="QR code du jeu" src="data:image/png;base64,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"></div><div>📱 Scanne et teste<br>tes réflexes !</div></div></div>
+<script>
+const API='https://script.google.com/macros/s/COLLE_TON_URL/exec';
+const medal=['🥇','🥈','🥉'];
+async function load(){
+ const L=document.getElementById('list');
+ try{
+  const d=await(await fetch(API)).json();
+  if(!d.top||!d.top.length){L.innerHTML='<div class="empty">Sois le premier au classement ! 🏆</div>';return}
+  L.textContent='';
+  d.top.forEach((x,i)=>{
+   const r=document.createElement('div');r.className='r';
+   [['b',medal[i]||(i+1)],['span',x.n],['b',x.s]].forEach(([t,v])=>{const e=document.createElement(t);e.textContent=v;r.appendChild(e)});
+   L.appendChild(r);
+  });
+ }catch(e){}
+}
+load();setInterval(load,10000);
+</script></body></html>
